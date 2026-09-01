@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AgriBegri - Online Shopping</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">AgriBegri</a>
+    <div class="deliver-to">Deliver to<strong>India</strong></div>
+    <div class="search-wrap">
+      <input type="text" id="searchInput" placeholder="Search for products...">
+      <button id="searchBtn">Search</button>
+    </div>
+    <div class="auth-area" id="authArea"></div>
+    <a href="cart.html" class="cart-link">Cart <span id="cartCount">0</span></a>
+  </div>
+</header>
+
+<section class="banner" id="banner">
+  <div class="banner-slide active" style="background:linear-gradient(120deg,#8e6ba1,#e6b8c7);">
+    <div>
+      <h2>Upgrade your style</h2>
+      <p>Explore the latest fashion collection</p>
+      <a href="#shop" class="btn btn-primary">Shop now</a>
+    </div>
+  </div>
+  <div class="banner-slide" style="background:linear-gradient(120deg,#2b6777,#52ab98);">
+    <div>
+      <h2>Power up your gadgets</h2>
+      <p>Top deals on electronics this week</p>
+      <a href="#shop" class="btn btn-primary">Shop now</a>
+    </div>
+  </div>
+  <div class="banner-slide" style="background:linear-gradient(120deg,#b76b3c,#e2a45c);">
+    <div>
+      <h2>Fresh from the farm</h2>
+      <p>Quality agri products at the best prices</p>
+      <a href="#shop" class="btn btn-primary">Shop now</a>
+    </div>
+  </div>
+  <button class="banner-nav prev" id="bannerPrev">&#8249;</button>
+  <button class="banner-nav next" id="bannerNext">&#8250;</button>
+  <div class="banner-dots" id="bannerDots"></div>
+</section>
+
+<main class="container" id="shop">
+  <h2 class="section-title">Shop our products</h2>
+  <p class="section-subtitle">Discover quality products at the best prices</p>
+
+  <div id="productArea">
+    <p class="empty-msg">Loading products...</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>About us</h4>
+      <p>We are an e-commerce platform offering quality products at the best prices.</p>
+    </div>
+    <div>
+      <h4>Quick links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="index.html#shop">Products</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p>Email: amitsen2339@gmail.com</p>
+      <p>Phone: +91-6267118388</p>
+    </div>
+  </div>
+  <div class="footer-bottom">&copy; 2026 AgriBegri. All rights reserved.</div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/header.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>
